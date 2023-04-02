@@ -6,7 +6,7 @@ public class SalaryCalculator {
         if (salary<=0)
             System.out.println("wrong input!");
         else {
-            if (salary<=10000)
+            if (salary<=10000) 
                 taxes = salary*15.0/100.0;
             else 
                 if (salary>20000)
