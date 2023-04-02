@@ -6,9 +6,9 @@ public class AlphabeticCharacters {
         if ((isEnglish>=65 && isEnglish<=90) || ((isEnglish>=97 && isEnglish<=122)))
             if (character=='a' || character=='A' 
             || character=='i' || character=='I' 
-            || character=='O' || character=='O' 
-            || character=='E' || character=='e' 
-            || character=='U' || character=='u' 
+            || character=='o' || character=='O' 
+            || character=='e' || character=='E' 
+            || character=='u' || character=='U' 
             || character=='y' || character=='Y')
                 System.out.println("Vowel");
             else 
