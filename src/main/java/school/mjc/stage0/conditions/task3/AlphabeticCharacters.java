@@ -2,10 +2,22 @@ package school.mjc.stage0.conditions.task3;
 
 public class AlphabeticCharacters {
     public void vowelDeterminer(char character) {
-    if (character == 'E' || character == 'N'  || character == 'G')
-        System.out.println("English");
-    else
-        System.out.println("Non English");
+        int isEnglish = character;
+        if ((isEnglish>=65 && isEnglish<=90) || ((isEnglish>=97 && isEnglish<=122)))
+            if (character=='a' || character=='A' 
+            || character=='i' || character=='I' 
+            || character=='O' || character=='O' 
+            || character=='E' || character=='e' 
+            || character=='U' || character=='u' 
+            || character=='y' || character=='Y')
+                System.out.println("Vowel");
+            else 
+                System.out.println("Consonant");
+        else
+            System.out.println("wrong alphabet!");
+    
+    
+    
         
     }
 }

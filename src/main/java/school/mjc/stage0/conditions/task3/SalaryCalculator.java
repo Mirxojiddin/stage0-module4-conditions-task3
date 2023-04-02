@@ -10,10 +10,11 @@ public class SalaryCalculator {
                 taxes = salary*15.0/100.0;
             else 
                 if (salary>20000)
-                    taxes = salary*5.0;
+                    taxes = salary/5.0;
                 else
                     taxes = salary*18.0/100.0;
-            System.out.println(taxes);
+            System.out.println(salary - taxes);
         }
     }
+
 }
