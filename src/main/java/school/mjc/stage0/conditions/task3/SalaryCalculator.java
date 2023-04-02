@@ -16,8 +16,4 @@ public class SalaryCalculator {
             System.out.println(taxes);
         }
     }
-    public static void main(String[] args) {
-        SalaryCalculator salaryCalculator = new SalaryCalculator();
-        salaryCalculator.calculateSalary(145);
-    }
 }
